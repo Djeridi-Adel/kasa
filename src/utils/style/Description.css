@@ -1,0 +1,35 @@
+
+.AboutList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 40px;
+}
+
+.AboutDiv {
+    display: flex;
+    align-items: center;
+    background-color: #FF6060;  
+    height: 52px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.AboutDiv h1 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+
+.arrow {
+    transform: rotate(180deg);
+}
+
+.ImgDiv {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.HomeLogo {
+  width: 100%;
+}
+
+.NavContainer {
+  padding: 30px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.link {
+  padding: 10px 15px;
+  color: #FF6060;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .link {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .NavContainer {
+    padding: 30px 2%;
+  }
+
+  .NavContainer a {
+    font-size: 12px;
+  }
+
+  .HomeLogo {
+    width: 75%;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+}
+

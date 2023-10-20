@@ -1,0 +1,72 @@
+*{
+    font-family: 'Montserrat';
+}
+
+.HomeWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+
+.HomeIllustration {
+  height: 233px;
+  width: 87%;
+  object-fit: cover;
+  border-radius: 20px;
+  filter: brightness(70%);
+}   
+
+.Gallery {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    display: flex;
+    width: 87%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.HomeSlogan {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    top: 20%;
+    left: 26%;
+    width: 68%;
+}
+
+.Banner {
+    height: 233px;
+    position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+    .HomeSlogan {
+        font-size: 36px;
+        top: 20%;
+        left: 10%;
+        width: 70%;
+    }
+
+    .HomeWrapper {
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .HomeSlogan {
+        font-size: 24px;
+        top: 25%;
+        left: 10%;
+        width: 60%;
+    }
+
+    .HomeWrapper {
+        gap: 0px;
+    }
+}
