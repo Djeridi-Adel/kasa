@@ -18,7 +18,7 @@ function Carousel({pictures}) {
             </div>
             
                 {totalPictures > 0 && (
-            <div>
+            <div className='div-chevron'>
                 <button onClick={() => setIndex(index - 1)}>{index}
                     <img src={ChevronGauche} className='classChevronGauche' alt={'flèche gauche pour changer de photo '+index} />
                 </button>

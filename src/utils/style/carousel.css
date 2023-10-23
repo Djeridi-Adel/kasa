@@ -37,22 +37,33 @@
     position: absolute;
     content: "";
     color: white;
-    inset: 0;
-    top: 40%;
     cursor: pointer;
+    top: 167.89px;
     left: 0;
-    width: 7%;
+    width: 46.68px;
+    height: 79.2px;
+    box-sizing: border-box;
 }
 
 .classChevronDroit {
     position: absolute;
-    content: "";
-    inset: 0;
-    top: 40%;
     cursor: pointer;
-    left: calc(100% - 7%);
-    width: 7%;
+    right: 0;
+    top: 167.89px;
+    width: 46.68px;
+    height: 79.2px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .classChevronDroit,
+    .classChevronGauche {
+     width: 23.34px;
+     height: 39.6px;
+     top: 45%;
+    }
+ }
+
 
 @media screen and (max-width: 375px) {
    .carousel {
@@ -62,5 +73,12 @@
 
    .carousel p {
     margin-top: 60%;
+   }
+
+   .classChevronDroit,
+   .classChevronGauche {
+    width: 11.67px;
+    height: 19.8px;
+    top: 50%;
    }
 }

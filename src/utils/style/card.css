@@ -38,6 +38,10 @@
         width: 335px;
         height: 255px;
     }
+
+    .gallery {
+        padding: 15px 0px 15px 0px;
+    }
 }
 
 @media screen and (max-width: 800px) {
